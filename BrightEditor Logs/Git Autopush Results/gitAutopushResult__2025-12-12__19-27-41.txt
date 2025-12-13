@@ -1,0 +1,9 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-12-12__19-27-16.txt', LF will be replaced by CRLF the next time Git touches it
+[master b28b57b] BrightEditor autopush 19:27:16 12/12/2025 CST
+ 5 files changed, 14 insertions(+), 1 deletion(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-12-12__19-27-16.txt
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
