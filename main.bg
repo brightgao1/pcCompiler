@@ -10,9 +10,6 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\pcCompiler       
 
 		加 		 	 	all.gao;
 
-nonConstant instancePointer main=instance;
-changeable windowPointer main=window;
-
 immutable unicodeString mainWindowClassStr stores unicodeLiteral</ pcCompiler />;
 
 function noReturn initApp   <//> 《
