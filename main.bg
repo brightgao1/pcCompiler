@@ -54,8 +54,8 @@ win32Entry   </ nonConstant instancePointer in。。changeable instancePointer p
     	· |[ negation (Init-instance</ in。。howToShow />) ]| 
 		^^^
 		[! integer16 !]0;
-    	while |[ GetMessage</ &msg。。null。。 0。。 0 /> ]| 【
-     		· |[ ([! integer32 !]TranslateAccelerator</ msg.hwnd。。null。。&msg />) isEqualTo?? [! integer16 !]0 ]| TranslateMessage</ &msg /> 》》DispatchMessage</ &msg />;
+    	while |[ Get-message</ &msg。。null。。 0。。 0 /> ]| 【
+     		· |[ ([! integer32 !]Translate-accelerator</ msg.hwnd。。null。。&msg />) isEqualTo?? [! integer16 !]0 ]| TranslateMessage</ &msg /> 》》DispatchMessage</ &msg />;
     	】
 	^^^
 	[! integer32 !]msg.wParam;
