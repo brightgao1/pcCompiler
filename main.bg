@@ -45,6 +45,10 @@ function returns variable Init-instance   </ changeable instancePointer in。。
    	
 	/c_init-app;
 	
+	[]</ :"::str=arr />;
+	str=arr addToEnd</ {test lol} />;
+	
+
    	^^^
 	[! integer32 !]1;
 》
