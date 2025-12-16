@@ -47,7 +47,7 @@ function returns variable Init-instance   </ changeable instancePointer in。。
 	
 	[]</ :"::str=arr />;
 	repeat |[8]| str=arr addToEnd</ {test lol} />;
-	
+	alert</ str=arr[2] pointer/>;
 
    	^^^
 	[! integer32 !]1;
