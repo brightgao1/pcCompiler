@@ -15,7 +15,7 @@ changeable windowPointer main=window;
 immutable unicodeString mainWindowClassStr stores unicodeLiteral</ pcCompiler />;
 
 function noReturn initApp   <//> 《
-	
+		
 》
 windowHandler WndProc   </ changeable windowPointer window。。nonMutable positiveInteger32 message。。changeable positiveInteger32Pointer parameter1。。changeable integer64Pointer parameter2 /> 《
     · |[ message isEqualTo?? WM_COMMAND ]| 【
