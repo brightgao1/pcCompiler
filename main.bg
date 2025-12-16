@@ -47,7 +47,7 @@ function returns variable Init-instance   </ changeable instancePointer in。。
    	^^^
 	[! integer32 !]1;
 》
-win32Entry   </ nonConstant instancePointer in。。changeable instancePointer prev。。nonMutable unicodeStringPointer cmdStr。。constant integer32 howToShow/> 《    	
+win32Entry   </ nonConstant instancePointer in。。changeable instancePointer prev。。nonMutable unicodeStringPointer cmd=str。。constant integer32 how=to=show /> 《    	
    	My-register-class</ in />; changeable MSG msg;
     	· |[ negation (Init-instance</ in。。howToShow />) ]| 
 		^^^
