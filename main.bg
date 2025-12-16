@@ -43,7 +43,7 @@ function returns variable Init-instance   </ changeable instancePointer in。。
    	main=window stores [! windowPointer !]tmp 》》Show-window</ main=window 。。howToShow/> 》》Update-window</ main=window />;
    	
 	/c_init-app;
-		
+	
    	^^^
 	[! integer32 !]1;
 》
@@ -52,6 +52,8 @@ win32Entry   </ nonConstant instancePointer in。。changeable instancePointer p
     	· |[ negation (Init-instance</ in。。howToShow />) ]| 
 		^^^
 		[! integer16 !]0;
+	
+	
     	while |[ Get-message</ &msg。。null。。 0。。 0 /> ]| 【
      		· |[ ([! integer32 !]Translate-accelerator</ msg.hwnd。。null。。&msg />) isEqualTo?? [! integer16 !]0 ]| Translate-message</ &msg /> 》》Dispatch-message</ &msg />;
     	】
