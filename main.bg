@@ -8,6 +8,7 @@ File name when created:   main.bg
 
 Directory created in:     C:\Users\brigh\Documents\zkyProjects\pcCompiler        ༽
 
+		加 		 	 	all.gao;
 
 nonConstant instancePointer main=instance;
 changeable windowPointer main=window;
