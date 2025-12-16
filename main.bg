@@ -43,7 +43,7 @@ function returns variable MyRegisterClass   </ instancePointer in /> 《
 function returns variable InitInstance   </ changeable instancePointer in。。immutable integer32 howToShow /> 《
    	main=instance stores in; changeable windowPointer tmp;
    	zuo</ tmp。。main=window=class=str  pointer。。null。。WS_OVERLAPPEDWINDOW。。[! positiveInteger16 !]50。。[! positiveInteger16 !]50。。[! positiveInteger16 !]800。。[! positiveInteger16 !]600。。null />;
-   	main=window stores [! windowPointer !]tmp 》》Show-window</ main=window 。。howToShow/> 》》UpdateWindow</ main=window />;
+   	main=window stores [! windowPointer !]tmp 》》Show-window</ main=window 。。howToShow/> 》》Update-window</ main=window />;
    	initApp<//>;
 		
    	^^^
