@@ -46,7 +46,7 @@ function returns variable Init-instance   </ changeable instancePointer in。。
 	/c_init-app;
 	
 	[]</ :"::str=arr />;
-	str=arr addToEnd</ {test lol} />;
+	repeat |[8]| str=arr addToEnd</ {test lol} />;
 	
 
    	^^^
