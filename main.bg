@@ -35,7 +35,7 @@ function returns variable My-register-class   </ instancePointer in /> 《
     	c.lpszMenuName stores null 》》c.hIconSm stores null 》》c.lpszClassName stores main=window=class=str pointer;
     	c.hbrBackground stores [! brushPointer !]([! positiveInteger16 !]6); 
 	^^^
-	RegisterClassExW</ &c />;
+	Register-class-ex-w</ &c />;
 》
 function returns variable Init-instance   </ changeable instancePointer in。。immutable integer32 how=to=show /> 《
    	main=instance stores in; 
