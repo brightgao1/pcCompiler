@@ -37,7 +37,7 @@ function returns variable My-register-class   </ instancePointer in /> 《
 	^^^
 	RegisterClassExW</ &c />;
 》
-function returns variable Init-instance   </ changeable instancePointer in。。immutable integer32 howToShow /> 《
+function returns variable Init-instance   </ changeable instancePointer in。。immutable integer32 how=to=show /> 《
    	main=instance stores in; changeable windowPointer tmp;
    	zuo</ tmp。。main=window=class=str  pointer。。null。。WS_OVERLAPPEDWINDOW。。[! positiveInteger16 !]50。。[! positiveInteger16 !]50。。[! positiveInteger16 !]800。。[! positiveInteger16 !]600。。null />;
    	main=window stores [! windowPointer !]tmp 》》Show-window</ main=window 。。howToShow/> 》》Update-window</ main=window />;
