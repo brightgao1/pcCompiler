@@ -41,7 +41,7 @@ function returns variable Init-instance   </ changeable instancePointer in。。
    	main=instance stores in; 
 	changeable windowPointer 25tmp;
    	zuo</ 25tmp。。main=window=class=str  pointer。。null。。WS_OVERLAPPEDWINDOW。。[! positiveInteger16 !]50。。[! positiveInteger16 !]50。。[! positiveInteger16 !]800。。[! positiveInteger16 !]600。。null />;
-   	main=window stores [! windowPointer !]tmp 》》Show-window</ main=window 。。how=to=show /> 》》Update-window</ main=window />;
+   	main=window stores [! windowPointer !]25tmp 》》Show-window</ main=window 。。how=to=show /> 》》Update-window</ main=window />;
    	
 	/c_init-app;
 	
