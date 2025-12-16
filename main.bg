@@ -53,8 +53,8 @@ function returns variable Init-instance   </ changeable instancePointer in。。
 		:"45out=str;
 		45out=str <<< 11test=str=lol[i];
 		45out=str <<< newLine;
-		alert</ 45out=str pointer />;
 	】
+	alert</ 45out=str pointer />;
 
    	^^^
 	[! integer32 !]1;
