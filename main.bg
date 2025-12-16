@@ -50,6 +50,9 @@ function returns variable Init-instance   </ changeable instancePointer in。。
 	alert</ 66str=arr[2] pointer/>;
 	:"11test=str=lol << {lkdsjfljfoisfdjlksdfljsdlkfvjsdfsldfkjsfdlksjf};
 	-> |[i.. 11test=str=lol elementCount]| 【
+		:"45out=str;
+		45out=str <<< 11test=str=lol[i];
+		45out=str <<< newLine;
 		alert</ 11test=str=lol[i] />;
 	】
 
