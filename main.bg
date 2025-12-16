@@ -12,9 +12,6 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\pcCompiler       
 
 immutable unicodeString main=window=class=str stores unicodeLiteral</ pcCompiler />;
 
-function noReturn initApp   <//> 《
-		
-》
 windowHandler Wnd-proc   </ changeable windowPointer window。。nonMutable positiveInteger32 message。。changeable positiveInteger32Pointer parameter1。。changeable integer64Pointer parameter2 /> 《
     · |[ message isEqualTo?? WM_COMMAND ]| 【
     
