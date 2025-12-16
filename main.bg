@@ -10,7 +10,7 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\pcCompiler       
 
 		加 		 	 	all.gao;
 
-immutable unicodeString mainWindowClassStr stores unicodeLiteral</ pcCompiler />;
+immutable unicodeString main=window=class=str stores unicodeLiteral</ pcCompiler />;
 
 function noReturn initApp   <//> 《
 		
