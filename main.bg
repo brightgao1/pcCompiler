@@ -45,17 +45,7 @@ function returns variable Init-instance   </ changeable instancePointer in。。
    	
 	/c_init-app;
 	
-	[]</ :"::66str=arr />;
-	repeat |[8]| 66str=arr addToEnd</ {test lol} />;
-	alert</ 66str=arr[2] pointer/>;
-	:"11test=str=lol << {lkdsjfljfoisfdjlksdfljsdlkfvjsdfsldfkjsfdlksjf};
-	:"45out=str;
-	-> |[i.. 11test=str=lol elementCount]| 【
-		45out=str <<< 11test=str=lol[i];
-		45out=str <<< newLine;
-	】
-	alert</ 45out=str pointer />;
-
+	
    	^^^
 	[! integer32 !]1;
 》
