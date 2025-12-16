@@ -30,8 +30,8 @@ windowHandler Wnd-proc   </ changeable windowPointer window。。nonMutable posi
 
 function returns variable My-register-class   </ instancePointer in /> 《
     	changeable WNDCLASSEXW c; c.cbSize stores bytes</ WNDCLASSEXW />; 
-	c.hInstance stores in 》》c.style stores CS_HREDRAW | CS_VREDRAW 》》c.lpfnWndProc stores WndProc;
-    	c.cbClsExtra stores null 》》c.cbWndExtra stores null 》》c.hIcon stores null 》》c.hCursor stores LoadCursor</ null, IDC_ARROW />;
+	c.hInstance stores in 》》c.style stores CS_HREDRAW | CS_VREDRAW 》》c.lpfnWndProc stores Wnd-proc;
+    	c.cbClsExtra stores null 》》c.cbWndExtra stores null 》》c.hIcon stores null 》》c.hCursor stores Load-cursor</ null, IDC_ARROW />;
     	c.lpszMenuName stores null 》》c.hIconSm stores null 》》c.lpszClassName stores main=window=class=str pointer;
     	c.hbrBackground stores [! brushPointer !]([! positiveInteger16 !]6); 
 	^^^
