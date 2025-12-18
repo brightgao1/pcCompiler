@@ -15,16 +15,13 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\pcCompiler       
 function noReturn prep-remove-comments   <//> 《
 	:"20new=file=str << {};
 	-> |[i.. (99file=str elementCount) minus 1]| 【
-		:"aa;
-		aa <<< 99file=str[i];
-		alert</ aa pointer />;
 		? |[99file=str[i] === '/' && 99file=str[i plus 1] === '/']| 【
 			i <<< 1;
-//			while |[i isLessThan?? 99file=str elementCount && 99file=str[i] isNotEqualTo?? newLine]|
-//				i <<< 1;
+			while |[i isLessThan?? 99file=str elementCount && 99file=str[i] isNotEqualTo?? newLine]|
+				i <<< 1;
 		】
-//		? |[99file=str[i] === '/' &&&
-//		20new=file=str addToEnd</ 99file=str[i] />;
+		? |[99file=str[i] === '/' &&&
+		20new=file=str addToEnd</ 99file=str[i] />;
 	】
 //	20=new=file=str addToEnd</ 99file=str[99file=str elementCount minus 1] />;
 	99file=str << 20new=file=str;
