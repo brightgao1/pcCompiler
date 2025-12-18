@@ -29,6 +29,7 @@ function noReturn prep-remove-comments   <//> 《
 					i <<< 2;
 					exitLoop;
 				】
+				i <<< 1;
 			】
 		】
 			
