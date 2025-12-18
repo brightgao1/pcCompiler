@@ -42,7 +42,7 @@ function noReturn prep-remove-comments   <//> 《
 function noReturn prep-remove-extra-spaces   <//> 《
 	:"20no=spaces << {};
 	-> |[i.. 99file=str elementCount]| 【
-		
+		while |[i isLessThan?? (99file=str elementCount) minus 1 && 99file=str[i] === space
 	】
 
 	99file=str << 20no=spaces;
