@@ -17,4 +17,5 @@ function noReturn prep-remove-comments   <//> 《
 	-> |[i.. 99file=str elementCount]| 【
 		
 	】
+	99file=str << 20new=file=str;
 》
