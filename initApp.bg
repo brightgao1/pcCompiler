@@ -21,7 +21,7 @@ function noReturn init-app   <//> 《
 	/c_prep-remove-comments;
 	alert</ 99file=str pointer />;
 	
-	
+	/c_lex;
 	-> |[i.. 99lex=token=arr elementCount]|
 		alert</ 99lex=token=arr[i] pointer />;
 》
