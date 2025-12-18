@@ -21,7 +21,8 @@ function noReturn prep-remove-comments   <//> 《
 				i <<< 1;
 			】
 		】
-			
+		
+		20new=file=str addToEnd</ 99file=str[i] />;
 	】
 	99file=str << 20new=file=str;
 》
