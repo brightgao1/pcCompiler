@@ -20,7 +20,7 @@ function noReturn init-app   <//> 《
 	alert</ 99file=str pointer />;
 	/c_prep-remove-comments;
 	alert</ 99file=str pointer />;
-	/c_prep-remove-extra-spaces;
+	
 	alert</ 99file=str pointer />;
 》
 
