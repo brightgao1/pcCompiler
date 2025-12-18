@@ -13,6 +13,6 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\pcCompiler       
 
 
 function noReturn prep-remove-comments   <//> 《
-	:"20new=file=str;
-		
+	:"20new=file=str << {};
+	? |[20new=file=str	
 》
