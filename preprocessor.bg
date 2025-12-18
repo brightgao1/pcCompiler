@@ -16,7 +16,8 @@ function noReturn prep-remove-comments   <//> 《
 	:"20new=file=str << {};
 	-> |[i.. (99file=str elementCount) minus 1]| 【
 		? |[99file=str[i] === '/' && 99file=str[i plus 1] === '/']| 【
-			i <<< 1;
+			i <<< 2;
+			
 		】
 			
 	】
