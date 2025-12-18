@@ -17,4 +17,4 @@ instancePointer main=instance;
 
 :"99file=str;
 
-[]</ :"::@@token=arr />;
+[]</ :"::@@99token=arr />;
