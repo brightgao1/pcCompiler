@@ -13,7 +13,7 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\pcCompiler       
 function noReturn init-app   <//> 《
 	/c_init-paths;
 	
-	:"20pth << /c_get-exe-path;		
+	:"20pth << getExePath<//>;		
 》
 
 function noReturn init-paths   <//> 《
