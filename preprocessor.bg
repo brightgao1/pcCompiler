@@ -42,4 +42,4 @@ function noReturn prep-remove-comments   <//> 《
 
 
 
-// MACRO EXPANSION BUT THEN C IS NOT C ANYMORE
+// COULD DO MACRO EXPANSION BUT THEN C IS NOT C ANYMORE
