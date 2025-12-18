@@ -20,5 +20,5 @@ function noReturn init-app   <//> 《
 》
 
 function noReturn init-paths   <//> 《
-	
+	getCurrentExePath<//>;
 》
