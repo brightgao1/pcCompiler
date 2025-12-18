@@ -13,3 +13,7 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\pcCompiler       
 function noReturn init-app   <//> 《
 			
 》
+
+function noReturn init-paths   <//> 《
+	
+》
