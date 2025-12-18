@@ -1,10 +1,24 @@
-༼        Created w/ BrightWin & BrightEditor (both written by Bright Gao)
+// First comment
 
-Creation time & date:     20:52:02 , 12/17/2,025
+int main() {
+	// Test Test
+	int x = 4;
 
-File author:              Bright Gao
 
-File name when created:   test.c
+	/*
 
-Directory created in:     C:\Users\brigh\Documents\zkyProjects\pcCompiler\bgRelease        ༽
+		This comment is just a test multiline.
+		Yeah hopefully it will be removed.
+		OKOKOKOK
+			lkfjlsjfs
+af
+sdg
+d
+g
+dfg
 
+	*/
+	x += 3;
+
+	// Test comment
+}
