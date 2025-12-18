@@ -27,7 +27,7 @@ function noReturn prep-remove-comments   <//> 《
 			while |[i isLessThan?? (99file=str elementCount) minus 1]| 【
 				? |[99file=str[i] === '*' && 99file=str[i plus 1] === '/']|
 					exitLoop;
-
+				
 			】
 		】
 			
