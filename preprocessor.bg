@@ -15,7 +15,7 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\pcCompiler       
 function noReturn prep-remove-comments   <//> 《
 	:"20new=file=str << {};
 	-> |[i.. (99file=str elementCount) minus 1]| 【
-		alert</ toUnicodeString</ i />/>;
+		alert</ toUnicodeString</ i /> pointer />;
 		? |[99file=str[i] === '/' && 99file=str[i plus 1] === '/']| 【
 			i <<< 1;
 //			while |[i isLessThan?? 99file=str elementCount && 99file=str[i] isNotEqualTo?? newLine]|
