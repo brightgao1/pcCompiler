@@ -18,6 +18,7 @@ g
 dfg
 
 	*/
+
 	x += 3;
 
 	// Test comment
