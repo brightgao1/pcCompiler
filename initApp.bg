@@ -16,7 +16,7 @@ function noReturn init-app   <//> 《
 	:"test=path << {C:\\Users\\brigh\\Documents\\zkyProjects\\pcCompiler\\bgRelease\\test.c};
 	[]</ :"::@@tmp=arr />;
 	fileToDynamicArray</ test=path::tmp=arr />;
-	-> |[i.. tmp=arr elementCount]|
+//	-> |[i.. tmp=arr elementCount]|
 		
 	fileToUnicodeString</ test=path::99file=str />;
 	alert</ 99file=str pointer />;
