@@ -20,4 +20,4 @@ instancePointer main=instance;
 []</ :"::@@99token=arr />;
 
 
-global []</ :"::@@99operator=arr />;
+[]</ :"::@@99operator=arr />;
