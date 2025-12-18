@@ -18,9 +18,9 @@ function noReturn init-app   <//> 《
 		
 	fileToUnicodeString</ test=path::99file=str />;
 	alert</ 99file=str pointer />;
-	alert</ toUnicodeString</ 99file=str elementCount /> pointer />;
 	/c_prep-remove-comments;
 	alert</ 99file=str pointer />;
+	
 》
 
 function noReturn init-paths   <//> 《
