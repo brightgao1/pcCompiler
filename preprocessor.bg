@@ -20,7 +20,7 @@ function noReturn prep-remove-comments   <//> 《
 			i <<< 2;
 			while |[i isLessThan?? 99file=str elementCount && 99file=str[i] isNotEqualTo?? newLine]|
 				i <<< 1;
-			? |[99file=str[i] === newLine]|】
+			? |[99file=str[i] === newLine]|
 				i <<< 1;
 		】
 //	MULTI LINE COMMENTS
