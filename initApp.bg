@@ -14,7 +14,7 @@ function noReturn init-app   <//> 《
 	/c_init-paths;
 	
 	:"test=path << {C:\\Users\\brigh\\Documents\\zkyProjects\\pcCompiler\\bgRelease\\test.c};
-	? |[pathExists</ test=path />]| alert</ {lskfklsdjf} />;
+	
 》
 
 function noReturn init-paths   <//> 《
