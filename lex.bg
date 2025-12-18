@@ -23,6 +23,7 @@ function noReturn lex   <//> 《
 				>> i <<< 1;
 				goToNextIteration;
 			】
+//	THIS IS FINE HERE
 			:"curr=char=str << {};
 			curr=char=str addToEnd</ 99file=str[i] />;
 			? |[pc-is-operator</ curr=char=str />]| 【
