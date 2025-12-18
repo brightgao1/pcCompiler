@@ -15,10 +15,10 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\pcCompiler       
 function noReturn lex   <//> 《
 	-> |[i.. 99file=str elementCount]| 【
 		? |[i plus 1 isLessThan?? 99file=str elementCount]| 【
-			:"nxt=two=chars << {};
-			nxt=two=chars addToEnd</ 99file=str[i] />;
-			nxt=two=chars addToEnd</ 99file=str[i plus 1] />;
-			? |[pc-is-operator</
+			:"curr=and=nxt << {};
+			curr=and=nxt addToEnd</ 99file=str[i] />;
+			curr=and=nxt addToEnd</ 99file=str[i plus 1] />;
+			? |[pc-is-operator</ nxt=two=chars
 		】 
 	】	
 
