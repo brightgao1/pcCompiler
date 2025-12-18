@@ -28,7 +28,7 @@ function noReturn lex   <//> 《
 			:"curr=char=str << {};
 			curr=char=str addToEnd</ 99file=str[i] />;
 			? |[pc-is-operator</ curr=char=str />
-				99lex=token=arr addToEnd</ curr=and=nxt />;
+				99lex=token=arr addToEnd</ curr=char=str />;
 		】
 	】	
 
