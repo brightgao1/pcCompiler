@@ -42,6 +42,8 @@ function noReturn prep-remove-comments   <//> 《
 function noReturn prep-remove-extra-spaces   <//> 《
 	:"20no=spaces << {};
 	-> |[
+
+	99file=str << 20no=spaces;
 》
 
 
