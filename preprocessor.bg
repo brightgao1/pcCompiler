@@ -39,20 +39,20 @@ function noReturn prep-remove-comments   <//> 《
 //	20=new=file=str addToEnd</ 99file=str[99file=str elementCount minus 1] />;
 	99file=str << 20new=file=str;
 》
-function noReturn prep-remove-extra-spaces   <//> 《
-	:"20no=spaces << {};
-	-> |[i.. 99file=str elementCount]| 【
-		? |[99file=str[i] === '\t']|
-			goToNextIteration;
-		while |[(i isLessThan?? (99file=str elementCount) minus 1) && 99file=str[i] === space && 99file=str[i plus 1] === space]|
-			i <<< 1;
-
-		? |[i isLessThan?? 99file=str elementCount]|
-			20no=spaces addToEnd</ 99file=str[i] />;
-	】
-
-	99file=str << 20no=spaces;
-》
+//function noReturn prep-remove-extra-spaces   <//> 《
+//	:"20no=spaces << {};
+//	-> |[i.. 99file=str elementCount]| 【
+//		? |[99file=str[i] === '\t']|
+//			goToNextIteration;
+//		while |[(i isLessThan?? (99file=str elementCount) minus 1) && 99file=str[i] === space && 99file=str[i plus 1] === space]|
+//			i <<< 1;
+//		while |[
+//		? |[i isLessThan?? 99file=str elementCount]|
+//			20no=spaces addToEnd</ 99file=str[i] />;
+//	】
+//
+//	99file=str << 20no=spaces;
+//》
 
 
 // COULD DO MACRO EXPANSION BUT THEN C IS NOT C ANYMORE
