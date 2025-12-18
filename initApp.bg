@@ -16,6 +16,7 @@ function noReturn init-app   <//> 《
 	:"test=path << {C:\\Users\\brigh\\Documents\\zkyProjects\\pcCompiler\\bgRelease\\test.c};
 	:"99file=str;
 	fileToUnicodeString</ test=path::99file=str />;
+	
 》
 
 function noReturn init-paths   <//> 《
