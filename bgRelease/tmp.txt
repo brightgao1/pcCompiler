@@ -1,6 +1,0 @@
-warning: in the working copy of 'tmp.txt', LF will be replaced by CRLF the next time Git touches it
-[master 3746bd0] BrightEditor autopush 20:52:27 12/17/2025 CST
- 4 files changed, 6 insertions(+), 2 deletions(-)
- create mode 100644 bgRelease/tmp.txt
-To https://github.com/brightgao1/pcCompiler.git
-   93c3277..3746bd0  master -> master
