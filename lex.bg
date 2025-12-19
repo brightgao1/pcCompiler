@@ -31,7 +31,7 @@ function noReturn lex   <//> 《
 				goToNextIteration;
 			】
 			
-			? |[99file=str[i] === space && isalpha</ 99file=str[i plus 1] />]| 【
+			? |[(99file=str[i] === space || 99file=str[i] === newLine || 99file=str[i] === '\t') && isalpha</ 99file=str[i plus 1] />]| 【
 				i <<< 1;
 				:"word << {};
 				while |[i plus 1 isLessThan?? 99file=str elementCount && isalpha</ 99file=str[i plus 1] />]| 【
