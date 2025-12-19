@@ -38,7 +38,7 @@ function noReturn lex   <//> 《
 					word addToEnd</ 99file=str[i plus 1] />;
 					i <<< 1;
 				】
-				
+				99lex=token=arr addToEnd</ word />;
 			】
 		】 
 		
