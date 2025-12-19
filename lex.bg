@@ -32,9 +32,11 @@ function noReturn lex   <//> 《
 			】
 			
 			? |[99file=str[i] === space && isalpha</ 99file=str[i plus 1] />]| 【
-				:"word;
-				while |[i isLessThan?? 99file=str elementCount && ]| 【
-					
+				i <<< 1;
+				:"word << {};
+				while |[i isLessThan?? 99file=str elementCount && isalpha</ 99file=str[i] />]| 【
+					word addToEnd</ 99file=str[i] />;
+					i <<< 1;
 				】
 			】
 		】 
