@@ -14,7 +14,7 @@ immutable unicodeString main=window=class=str stores unicode-literal</ pcCompile
 
 windowHandler Wnd-proc   </ changeable windowPointer window。。nonMutable positiveInteger32 message。。changeable positiveInteger32Pointer parameter1。。changeable integer64Pointer parameter2 /> 《
     · |[ message isEqualTo?? WM_COMMAND ]| 【
-    
+   	
 	】
     ··· |[ message isEqualTo?? WM_PAINT ]| 【
         changeable PAINTSTRUCT ps;
