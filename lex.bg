@@ -42,7 +42,8 @@ function noReturn lex   <//> 《
 				goToNextIteration;
 			】
 			? |[isdigit</ 99file=str[i] />]| 【
-								
+				:"num << {};
+				while			
 			】
 		】 
 		
