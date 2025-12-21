@@ -39,6 +39,7 @@ function noReturn lex   <//> 《
 					i <<< 1;
 				】
 				99lex=token=arr addToEnd</ word />;
+				goToNextIteration;
 			】
 		】 
 		
