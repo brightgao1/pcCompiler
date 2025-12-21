@@ -24,4 +24,9 @@ function returns flag pc-is-punctuation   </ :"s /> 《
 		^^^
 		0;
 	
+	^^^
+	s === {;} ||
+	s === {(} || s === {)} ||
+	s === {[} || s === {]} ||
+	s === {\u007B} || s === {\u007D};
 》
