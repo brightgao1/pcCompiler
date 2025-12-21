@@ -58,8 +58,9 @@ function noReturn lex   <//> 《
 			】
 		】 
 		~ 【
-			:"20=last=char;
-			99lex=token=arr addToEnd</ 20=last=char />;
+			:"20last=char;
+			20last=char addToEnd</ 99file=str[i] />;
+			99lex=token=arr addToEnd</ 20last=char />;
 		】			
 	】	
 	
