@@ -47,6 +47,9 @@ function noReturn lex   <//> 《
 					20num=str addToEnd</ 99file=str[i] />;
 					i <<< 1;
 				】			
+				99lex=token=arr addToEnd</ 20num=str />
+				>> i << i minus 1;
+				goToNextIteration;
 			】
 		】 
 		
