@@ -38,10 +38,10 @@ function noReturn lex   <//> 《
 			
 			? |[isalpha</ 99file=str[i] />]| 【
 				:"word << {};
-				while |[i isLessThan?? 99file=str elementCount && isalpha</ 99file=str[i] />]| 【
-					word addToEnd</ 99file=str[i] />;
-					i <<< 1;
-				】
+				while |[i isLessThan?? 99file=str elementCount && isalpha</ 99file=str[i] />]|
+					word addToEnd</ 99file=str[i] />
+					>> i <<< 1;
+				
 				99lex=token=arr addToEnd</ word />
 				>> i << i minus 1;
 				goToNextIteration;
