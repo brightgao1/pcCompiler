@@ -15,6 +15,7 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\pcCompiler       
 function returns flag pc-is-operator   </ :"s /> 《
 	^^^
 	s === {=} || s === {+=} || s === {-=} || s === {*=} || s === {/=} || s === {%=} ||
-	s === {+} || s === {-} || s === {*} || s === {/} || s === {%} ||
-	s === {&};
+	s === {+} || s === {-} || s === {*} || s === {/} || s === {%} || s === {&} ||
+	s === {==} || s === {>} || s === {>=} || s === {<} || s === {<=};
 》
+
