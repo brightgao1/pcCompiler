@@ -59,7 +59,7 @@ function noReturn lex   <//> 《
 		】 
 		~ 【
 			:"20=last=char;
-			99lex=token=arr addToEnd</ 
+			99lex=token=arr addToEnd</ 20=last=char />;
 		】			
 	】	
 	
