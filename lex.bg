@@ -43,7 +43,9 @@ function noReturn lex   <//> 《
 			】
 			? |[isdigit</ 99file=str[i] />]| 【
 				:"20num=str << {};
-				while			
+				while |[i isLessThan?? 99file=str elementCount && isdigit</ 99file=str[i] />]| 【
+					
+				】			
 			】
 		】 
 		
