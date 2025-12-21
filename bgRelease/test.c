@@ -24,5 +24,7 @@ dfg
 	/*    another multiline I guess but in 1 line */
 	// Test comment
 	
-	int y=x;	
+	int y=x;
+	
+	y += 83742;
 }
