@@ -48,17 +48,18 @@ function noReturn lex   <//> 《
 			】
 			? |[isdigit</ 99file=str[i] />]| 【
 				:"20num=str << {};
-				while |[i isLessThan?? 99file=str elementCount && isdigit</ 99file=str[i] />]| 【
-					20num=str addToEnd</ 99file=str[i] />;
-					i <<< 1;
-				】			
+				while |[i isLessThan?? 99file=str elementCount && isdigit</ 99file=str[i] />]| 
+					20num=str addToEnd</ 99file=str[i] />
+					>> i <<< 1;
+							
 				99lex=token=arr addToEnd</ 20num=str />
 				>> i << i minus 1;
 				goToNextIteration;
 			】
 		】 
 		~ 【
-			
+			:"20=last=char;
+			99lex=token=arr addToEnd</ 
 		】			
 	】	
 	
