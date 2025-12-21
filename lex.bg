@@ -41,6 +41,9 @@ function noReturn lex   <//> 《
 				>> i << i minus 1;
 				goToNextIteration;
 			】
+			? |[isdigit</ 99file=str[i] />]| 【
+								
+			】
 		】 
 		
 	】	
