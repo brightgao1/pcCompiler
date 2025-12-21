@@ -32,7 +32,8 @@ function noReturn lex   <//> 《
 			】
 
 			? |[pc-is-punctuation</ curr=char=str />]| 【
-				
+				99lex=token=arr addToEnd</ curr=char=str />;
+				goToNextIteration;
 			】
 			
 			? |[isalpha</ 99file=str[i] />]| 【
