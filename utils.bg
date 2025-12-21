@@ -15,7 +15,13 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\pcCompiler       
 function returns flag pc-is-operator   </ :"s /> 《
 	^^^
 	s === {=} || s === {+=} || s === {-=} || s === {*=} || s === {/=} || s === {%=} ||
-	s === {+} || s === {-} || s === {*} || s === {/} || s === {%} || s === {&} || s === {;} ||
+	s === {+} || s === {-} || s === {*} || s === {/} || s === {%} || s === {&}  ||
 	s === {==} || s === {>} || s === {>=} || s === {<} || s === {<=};
 》
 
+function returns flag pc-is-punctuation   </ :"s /> 《
+	? |[s elementCount isNotEqualTo?? 1]| 
+		^^^
+		0;
+	
+》
