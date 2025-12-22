@@ -1,4 +1,4 @@
-Keypress frequency for each key over the lifetime of the BrightEditor project in C:\Users\brigh\Documents\zkyProjects\pcCompiler as of 06:45:41 , 12/22/2025
+Keypress frequency for each key over the lifetime of the BrightEditor project in C:\Users\brigh\Documents\zkyProjects\pcCompiler as of 06:46:00 , 12/22/2025
 
 Key Name     Amount of times it was pressed in BrightEditor
 
