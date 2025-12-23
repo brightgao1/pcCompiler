@@ -58,6 +58,7 @@ function noReturn lex   <//> 《
 			】
 			
 			? |[99file=str[i] === '"']| 【
+				i <<< 1;
 				lex-string-literal</ i />;
 			】
 		】 
