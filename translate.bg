@@ -35,7 +35,8 @@ function noReturn tlate-convert-to-asm   <//> 《
 				20in=func << 1;
 				goToNextIteration;
 			】
-				
+			
+//			? |[20in=func === 0]| 
 		】
 
 	】
