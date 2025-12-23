@@ -22,7 +22,3 @@ instancePointer main=instance;
 []</ :"::@@99lex=token=arr />;
 
 
-
-:"99bss=section=str;
-:"99data=section=str;
-:"99text=section=str;
