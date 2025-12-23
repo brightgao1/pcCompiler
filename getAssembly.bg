@@ -12,6 +12,10 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\pcCompiler       
 		加					all.gao;
 
 
+function returns unicodeString getasm-str-literal   <//> 《
+	
+》
+
 function returns unicodeString getasm-standard-bss-section   <//> 《
 	:"s << {.section .bss};
 	s <<< newLine;
