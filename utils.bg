@@ -14,7 +14,10 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\pcCompiler       
 
 
 
-
+function returns flag pc-is-keyword   </ :"s /> 《
+	^^^
+	pc-is-loop</ s /> || pc-is-conditional</ s /> || pc-is-type</ s />;
+》
 function returns flag pc-is-loop   </ :"s /> 《
 	^^^
 	s === {while};
