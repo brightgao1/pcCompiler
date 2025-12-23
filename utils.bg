@@ -31,3 +31,7 @@ function returns flag pc-is-punctuation   </ :"s /> 《
 	s === {[} || s === {]} ||
 	s === {\u007B} || s === {\u007D};
 》
+function returns flag pc-is-str-literal   </ :"s /> 《
+	^^^
+	s[0] === {\"} && s[s elementCount minus 1] === {\"}; 
+》
