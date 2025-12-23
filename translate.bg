@@ -26,7 +26,8 @@ function noReturn tlate-convert-to-asm   <//> 《
 	20text=section=str <<< /c_getasm-standard-text-section;
 	
 
-
+	flag inFunction << 0;
+	
 
 
 	wtf-write-assembly</ 20top=of=file=str::20data=section=str::20bss=section=str::20text=section=str />;
