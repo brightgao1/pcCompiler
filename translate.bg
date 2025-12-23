@@ -14,6 +14,8 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\pcCompiler       
 
 
 function noReturn tlate-convert-to-asm   <//> 《
+	/c_tlate-standard-bss;
+	/c_tlate-standard-data;
 	
 》
 function noReturn tlate-standard-bss   <//> 《
