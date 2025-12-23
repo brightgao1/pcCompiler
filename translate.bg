@@ -14,6 +14,7 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\pcCompiler       
 
 
 function noReturn tlate-convert-to-asm   <//> 《
+	:"20top=of=file=str << {};
 	:"20bss=section=str << {};
 	:"20data=section=str << {};
 	:"20text=section=str << {};
