@@ -27,4 +27,6 @@ dfg
 	int y=x;
 	
 	y += 83742;
+	
+	printf("hello hello");
 }
