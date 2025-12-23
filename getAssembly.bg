@@ -15,7 +15,7 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\pcCompiler       
 function returns unicodeString getasm-str-literal   <//> 《
 //	2 MAPS
 	:"label << {__STRLIT_};
-	label <<< toUnicodeString</ 
+	label <<< toUnicodeString</ 99str=literal=label=counter />;
 	99str=literal=label=counter <<< 1;
 	
 》
