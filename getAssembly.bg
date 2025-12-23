@@ -25,7 +25,7 @@ function returns unicodeString getasm-standard-data-section   <//> 《
 	s
 》
 function returns unicodeString getasm-standard-text-section   <//> 《
-	:"s <<< {.section .text};
+	:"s << {.section .text};
 	s <<< newLine;
 	^^^ 
 	s;
