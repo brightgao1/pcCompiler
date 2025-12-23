@@ -18,6 +18,8 @@ function noReturn tlate-convert-to-asm   <//> 《
 	/c_tlate-standard-data;
 	/c_tlate-standard-text;
 	
+
+	/c_wtf-write-assembly;
 》
 function noReturn tlate-standard-bss-section   <//> 《
 	99bss=section=str <<< {.section .bss};
