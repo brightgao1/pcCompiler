@@ -24,6 +24,8 @@ function noReturn init-app   <//> 《
 	/c_lex;
 	-> |[i.. 99lex=token=arr elementCount]|
 		alert</ 99lex=token=arr[i] pointer />;
+	
+	/c_tlate-convert-to-asm;
 》
 
 function noReturn init-paths   <//> 《
