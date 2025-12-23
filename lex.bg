@@ -77,6 +77,7 @@ function noReturn lex-string-literal   </ :##&i /> 《
 	:"20str=lit << {};
 	20str=lit addToEnd</ '"' />;
 	while |[i isLessThan?? 50sz && 99file=str[i] isNotEqualTo?? '"']| 【
+//		I CAN CHECK BACKSLASH BEFORE STRING CHARACTER FOR ESCAPE, MAYBE LATER
 		20str=lit addToEnd</ 99file=str[i] />;
 		i <<< 1;
 	】
