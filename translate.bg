@@ -30,7 +30,7 @@ function noReturn tlate-convert-to-asm   <//> 《
 	-> |[i.. 50tok=arr=sz]| 【
 		? |[i isLessThan?? 50tok=arr=sz minus 1]| 【
 			? |[99lex=token=arr[i] === {main} && 99lex=token=arr[i plus 1] === {(}]| 【
-				while |[99lex=token=arr[i] isNotEqualTo?? get-open-curlybrace<//>]|
+				while |[i isLessThan?? 50tok=arr=sz && 99lex=token=arr[i] isNotEqualTo?? get-open-curlybrace<//>]|
 					i <<< 1;
 				20in=func << 1;
 			】
