@@ -19,4 +19,5 @@ function noReturn wtf-write-assembly </ :"top  ::  :"data  ::  :"bss  ::  :"text
 	20to=write <<< bss;
 	20to=write <<< text;
 	
+	alert</ 20to=write pointer />;
 》
