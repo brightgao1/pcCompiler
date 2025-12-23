@@ -56,6 +56,10 @@ function noReturn lex   <//> 《
 				>> i << i minus 1;
 				goToNextIteration;
 			】
+			
+			? |[99file=str[i] === '"']| 【
+				lex-string-literal</ i />;
+			】
 		】 
 		~ 【
 			:"20last=char << {};
@@ -65,4 +69,7 @@ function noReturn lex   <//> 《
 	】	
 	
 
+》
+function noReturn lex-string-literal   </ :# &i /> 《
+		
 》
