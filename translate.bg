@@ -26,6 +26,11 @@ function noReturn tlate-convert-to-asm   <//> 《
 	20text=section=str <<< /c_getasm-standard-text-section;
 	
 
+	:"test << {};
+	test <<< getasm-str-literal-decl</ {test hi test } />;
+
+
+
 	wtf-write-assembly</ 20top=of=file=str::20data=section=str::20bss=section=str::20text=section=str />;
 	
 》
