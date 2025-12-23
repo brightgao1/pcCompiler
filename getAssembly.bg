@@ -16,7 +16,7 @@ function returns unicodeString getasm-str-literal-decl   <//> 《
 //	2 MAPS
 	:"label << {__STRLIT_};
 	label <<< toUnicodeString</ 99str=literal=label=counter />;
-	label <<< {:};
+	label <<< {: };
 	99str=literal=label=counter <<< 1;
 	
 》
