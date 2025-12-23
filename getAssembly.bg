@@ -38,4 +38,7 @@ function returns unicodeString getasm-standard-intel-syntax   <//> 《
 》
 function returns unicodeString getasm-standard-main-function-decl   <//> 《
 	:"s << {.global _main};
+	s <<< newLine;
+	^^^
+	s;
 》
