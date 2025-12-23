@@ -72,12 +72,13 @@ function noReturn lex   <//> 《
 
 》
 function noReturn lex-string-literal   </ :##&i /> 《
+	alert</ {start lex str lit} />;
 	:##50sz << 99file=str elementCount;
 	:"20str=lit << {};
 	20str=lit addToEnd</ '"' />;
-	i <<< 1;
 	while |[i isLessThan?? 50sz && 99file=str[i] isNotEqualTo?? '"']| 【
 		20str=lit addToEnd</ 99file=str[i] />;
+		alert</ 20str=lit pointer />;
 	】
 	? |[i isLessThan?? 50sz && 99file=str[i] === '"']|
 		20str=lit addToEnd</ 99file=str[i] />;
