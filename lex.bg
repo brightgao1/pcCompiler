@@ -72,5 +72,10 @@ function noReturn lex   <//> 《
 》
 function noReturn lex-string-literal   </ :##&i /> 《
 	:##50sz << 99file=str elementCount;
-	while |[i isLessThan?? 50sz &&  ]|
+	:"20str=lit << {};
+	while |[i isLessThan?? 50sz && 99file=str[i] isNotEqualTo?? '"']| 【
+		
+	】
+	? |[99file=str[i] === '"']|
+		
 》
