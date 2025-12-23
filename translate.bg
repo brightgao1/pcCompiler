@@ -19,6 +19,7 @@ function noReturn tlate-convert-to-asm   <//> 《
 	:"20data=section=str << {};
 	:"20text=section=str << {};
 	
+	20top=of=file=str <<< /c_getasm-standard-intel-syntax;
 
 	/c_wtf-write-assembly;
 》
