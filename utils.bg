@@ -13,7 +13,10 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\pcCompiler       
 加					all.gao;
 
 
-
+function returns flag pc-is-conditional   </ :"s /> 《
+	^^^
+	s === {if} || s === {else};
+》
 function returns flag pc-is-type   </ :"s /> 《
 	^^^
 	s === {int} || s === {char};
