@@ -22,6 +22,8 @@ function returns unicodeString getasm-str-literal-decl   </ :"&lit /> 《
 	>> s <<< newLine;
 	99str=literal=label=counter <<< 1;
 	
+	^^^
+	s;
 》
 
 function returns unicodeString getasm-standard-bss-section   <//> 《

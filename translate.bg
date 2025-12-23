@@ -28,7 +28,7 @@ function noReturn tlate-convert-to-asm   <//> 《
 
 	:"test << {};
 	repeat |[4]| test <<< getasm-str-literal-decl</ {test hi test } />;
-	
+	alert</ test pointer />;
 
 
 
