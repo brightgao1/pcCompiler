@@ -12,7 +12,7 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\pcCompiler       
 					加	all.gao;
 
 
-function noReturn wtf-write-assembly </ :"top  ::  :"data  ::  :"bss  ::  :"text /> 《
+function noReturn wtf-write-assembly </ :"&top  ::  :"&data  ::  :"&bss  ::  :"&text /> 《
 	:"20to=write << {};
 	20to=write <<< top;
 	20to=write <<< data;
