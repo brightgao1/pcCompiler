@@ -79,7 +79,7 @@ function noReturn lex-string-literal   </ :##&i /> 《
 	while |[i isLessThan?? 50sz && 99file=str[i] isNotEqualTo?? '"']| 【
 		20str=lit addToEnd</ 99file=str[i] />;
 	】
-	? |[99file=str[i] === '"']|
+	? |[i isLessThan?? 50sz && 99file=str[i] === '"']|
 		20str=lit addToEnd</ 99file=str[i] />;
 	99lex=token=arr addToEnd</ 20str=lit />;
 》
