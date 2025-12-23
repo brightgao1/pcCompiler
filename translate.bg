@@ -18,7 +18,6 @@ function noReturn tlate-convert-to-asm   <//> 《
 	:"20data=section=str << {};
 	:"20bss=section=str << {};
 	:"20text=section=str << {};
-	
 	20top=of=file=str <<< /c_getasm-standard-intel-syntax;
 	20top=of=file=str <<< /c_getasm-standard-main-func-decl;
 	20data=section=str <<< /c_getasm-standard-data-section;
@@ -27,7 +26,11 @@ function noReturn tlate-convert-to-asm   <//> 《
 	
 
 	flag 20in=func << 0;
-	
+	:##50tok=arr=sz << 99lex=token=arr elementCount;
+	-> |[i.. 50tok=arr=sz]| 【
+		
+
+	】
 
 
 	wtf-write-assembly</ 20top=of=file=str::20data=section=str::20bss=section=str::20text=section=str />;

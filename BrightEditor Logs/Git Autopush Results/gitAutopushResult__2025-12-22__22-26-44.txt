@@ -1,0 +1,5 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-12-22__22-21-43.txt', LF will be replaced by CRLF the next time Git touches it
+[master 9a107c1c0] BrightEditor autopush 22:21:43 12/22/2025 CST
+ 2 files changed, 7 insertions(+), 1 deletion(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-12-22__22-21-43.txt
+fatal: unable to access 'https://github.com/brightgao1/pcCompiler.git/': Connection timed out after 300000 milliseconds

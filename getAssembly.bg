@@ -12,6 +12,8 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\pcCompiler       
 		加					all.gao;
 
 
+
+
 function returns unicodeString getasm-str-literal-decl   </ :"&lit /> 《
 //	2 MAPS
 	:"s << {__STRLIT_};
@@ -56,3 +58,5 @@ function returns unicodeString getasm-standard-main-func-decl   <//> 《
 	^^^
 	s;
 》
+
+//	ADD STANDARD FUNCTION BEGINNING AND END
