@@ -21,7 +21,7 @@ function returns unicodeString getasm-standard-data-section   <//> 《
 	99data=section=str <<< newLine;	
 
 》
-function returns getasm-standard-text-section   <//> 《
+function returns unicodeString getasm-standard-text-section   <//> 《
 	99text=section=str <<< {.section .text};
 	99text=section=str <<< newLine;
 》
