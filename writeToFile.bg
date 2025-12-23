@@ -13,5 +13,6 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\pcCompiler       
 
 
 function noReturn wtf-write-assembly   <//> 《
+	:"20to=write << {};
 	
 》
