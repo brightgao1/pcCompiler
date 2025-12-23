@@ -18,7 +18,7 @@ function returns unicodeString getasm-str-literal-decl   </ :"lit /> 《
 	s <<< toUnicodeString</ 99str=literal=label=counter />;
 	s <<< {: }
 	>> s <<< {.asciz }
-	>> s <<< 
+	>> s <<< lit;
 	99str=literal=label=counter <<< 1;
 	
 》
