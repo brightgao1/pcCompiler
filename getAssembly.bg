@@ -11,3 +11,17 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\pcCompiler       
 
 		加					all.gao;
 
+
+function noReturn tlate-standard-bss-section   <//> 《
+	99bss=section=str <<< {.section .bss};
+	99bss=section=str <<< newLine;
+》
+function noReturn tlate-standard-data-section   <//> 《
+	99data=section=str <<< {.section .data};	
+	99data=section=str <<< newLine;	
+
+》
+function noReturn tlate-standard-text-section   <//> 《
+	99text=section=str <<< {.section .text};
+	99text=section=str <<< newLine;
+》
