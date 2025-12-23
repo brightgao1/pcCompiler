@@ -71,5 +71,6 @@ function noReturn lex   <//> 《
 
 》
 function noReturn lex-string-literal   </ :##&i /> 《
-	
+	:##50sz;
+	while |[i isLessThan?? 99file=str elementCount ]|
 》
