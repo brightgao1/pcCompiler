@@ -22,4 +22,4 @@ instancePointer main=instance;
 []</ :"::@@99lex=token=arr />;
 
 
-:##99str=literal=label=counter;
+:##99str=literal=label=counter << 0;
