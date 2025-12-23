@@ -70,6 +70,6 @@ function noReturn lex   <//> 《
 	
 
 》
-function noReturn lex-string-literal   </ :#&i /> 《
+function noReturn lex-string-literal   </ :##&i /> 《
 	alert</ {test} />;
 》
