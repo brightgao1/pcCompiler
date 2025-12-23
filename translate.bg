@@ -20,8 +20,8 @@ function noReturn tlate-convert-to-asm   <//> 《
 	:"20text=section=str << {};
 	
 	20top=of=file=str <<< /c_getasm-standard-intel-syntax;
-	20bss=section=str <<< /c_getasm-standard-bss-section;
 	20data=section=str <<< /c_getasm-standard-data-section;
+	20bss=section=str <<< /c_getasm-standard-bss-section;
 	20text=section=str <<< /c_getasm-standard-text-section;
 	
 
