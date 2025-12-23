@@ -19,9 +19,10 @@ function returns unicodeString getasm-standard-bss-section   <//> 《
 	s;
 》
 function returns unicodeString getasm-standard-data-section   <//> 《
-	99data=section=str <<< {.section .data};	
-	99data=section=str <<< newLine;	
-
+	:"s << {.section .data};	
+	s <<< newLine;	
+	^^^
+	s
 》
 function returns unicodeString getasm-standard-text-section   <//> 《
 	99text=section=str <<< {.section .text};
