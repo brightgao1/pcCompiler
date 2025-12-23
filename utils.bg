@@ -35,3 +35,9 @@ function returns flag pc-is-str-literal   </ :"s /> 《
 	^^^
 	s[0] === '"' && s[s elementCount minus 1] === '"'; 
 》
+function returns unicodeString get-open-curlybrace   <//> 《
+
+》
+function returns unicodeString get-close-curlybrace   <//> 《
+
+》
