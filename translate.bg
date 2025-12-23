@@ -27,7 +27,7 @@ function noReturn tlate-standard-bss-section   <//> 《
 》
 function noReturn tlate-standard-data-section   <//> 《
 	99data=section=str	<<< {.section .data};
-	99bss=section=str <<< newLine;
+	99data=section=str <<< newLine;
 	
 》
 function noReturn tlate-standard-text-section   <//> 《
