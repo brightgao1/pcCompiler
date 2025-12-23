@@ -28,7 +28,9 @@ function noReturn tlate-convert-to-asm   <//> 《
 	flag 20in=func << 0;
 	:##50tok=arr=sz << 99lex=token=arr elementCount;
 	-> |[i.. 50tok=arr=sz]| 【
-		? |[99lex=token=arr[i] === 
+		? |[99lex=token=arr[i] === {main}]| 【
+			
+		】
 
 	】
 
