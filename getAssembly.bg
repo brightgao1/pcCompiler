@@ -30,3 +30,9 @@ function returns unicodeString getasm-standard-text-section   <//> 《
 	^^^ 
 	s;
 》
+function returns unicodeString getasm-standard-intel-syntax   <//> 《
+	:"s << {.intel_syntax noprefix};
+	s <<< newLine;
+	^^^
+	s;
+》
