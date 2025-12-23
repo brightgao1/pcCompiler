@@ -13,6 +13,11 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\pcCompiler       
 加					all.gao;
 
 
+
+function returns flag pc-is-type   </ :"s /> 《
+	^^^
+	s === {int} || s === {char};
+》
 function returns flag pc-is-operator   </ :"s /> 《
 	^^^
 	s === {=} || s === {+=} || s === {-=} || s === {*=} || s === {/=} || s === {%=} ||
