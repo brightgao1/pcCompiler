@@ -13,8 +13,9 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\pcCompiler       
 
 
 function returns unicodeString getasm-standard-bss-section   <//> 《
-	99bss=section=str << {.section .bss};
-	99bss=section=str <<< newLine;
+	:"s << {.section .bss};
+	s <<< newLine;
+	
 》
 function returns unicodeString getasm-standard-data-section   <//> 《
 	99data=section=str <<< {.section .data};	
