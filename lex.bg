@@ -78,4 +78,6 @@ function noReturn lex-string-literal   </ :##&i /> 《
 	】
 	? |[99file=str[i] === '"']|
 		20str=lit addToEnd</ 99file=str[i] />;
+	
+	99lex=token=arr addToEnd</ 20str=lit />;
 》
