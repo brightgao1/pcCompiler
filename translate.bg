@@ -18,7 +18,7 @@ function noReturn tlate-convert-to-asm   <//> 《
 》
 function noReturn tlate-standard-bss   <//> 《
 	99bss=section=str <<< {.section .bss};
-		
+	99bss=section=str <<< newLine;
 》
 function noReturn tlate-standard-data   <//> 《
 	99data=section=str	<<< {.section .data};
