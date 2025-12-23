@@ -26,10 +26,6 @@ function noReturn tlate-convert-to-asm   <//> 《
 	20text=section=str <<< /c_getasm-standard-text-section;
 	
 
-	:"test << {};
-	:"lit << {test hi hello };
-	repeat |[4]| test <<< getasm-str-literal-decl</ lit />;
-	alert</ test pointer />;
 
 
 
