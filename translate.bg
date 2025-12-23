@@ -26,7 +26,7 @@ function noReturn tlate-convert-to-asm   <//> 《
 	20text=section=str <<< /c_getasm-standard-text-section;
 	
 
-	flag inFunction << 0;
+	flag 20in=func << 0;
 	
 
 
