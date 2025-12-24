@@ -1,0 +1,8 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-12-22__23-29-09.txt', LF will be replaced by CRLF the next time Git touches it
+error: short read while indexing BrightEditor Logs/keypressCounts.txt
+error: short read while indexing BrightEditor Logs/keypressCounts.txt
+[master 7ad152809] BrightEditor autopush 23:29:09 12/22/2025 CST
+ 2 files changed, 7 insertions(+), 1 deletion(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-12-22__23-29-09.txt
+To https://github.com/brightgao1/pcCompiler.git
+   d30323420..7ad152809  master -> master
