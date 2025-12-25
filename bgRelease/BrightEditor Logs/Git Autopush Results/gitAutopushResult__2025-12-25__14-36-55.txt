@@ -1,0 +1,6 @@
+warning: in the working copy of 'bgRelease/BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-12-25__14-36-30.txt', LF will be replaced by CRLF the next time Git touches it
+[master f40d31c8b] BrightEditor autopush 14:36:30 12/25/2025 CST
+ 2 files changed, 7 insertions(+), 1 deletion(-)
+ create mode 100644 bgRelease/BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-12-25__14-36-30.txt
+To https://github.com/brightgao1/pcCompiler.git
+   39f6370c7..f40d31c8b  master -> master
