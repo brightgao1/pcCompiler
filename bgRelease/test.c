@@ -1,6 +1,6 @@
 
 
-  hi lol // First comment
+  // First comment
 
 int main() {
 	// Test Test
