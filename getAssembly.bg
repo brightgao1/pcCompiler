@@ -16,7 +16,7 @@ function returns unicodeString getasm-eax-to-global-var   </ :"&var=name /> 《
 	s <<< {[};
 	s <<< var=name;
 	s <<< {]};
-	
+	s <<< {, eax};
 
 	^^^
 	s;
