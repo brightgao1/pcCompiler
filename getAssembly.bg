@@ -15,7 +15,7 @@ function returns unicodeString getasm-global-var-to-eax   </ :"&var=name /> 《
 	:"s << {mov eax, };
 	s <<< {[}
 	>> s <<< var=name
-	>> s <<< {]};
+	>> s <<< {]}
 	>> s <<< newLine;
 
 	^^^
