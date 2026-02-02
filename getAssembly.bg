@@ -15,8 +15,6 @@ function returns unicodeString getasm-global-to-global-var   </ :"&result :: :"&
 	:"s << {};
 	s <<< getasm-global-var-to-eax</ to=move />;
 	s <<< getasm-eax-to-global-var</ result />;
-	
-	
 	^^^
 	s;
 》
