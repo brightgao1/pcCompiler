@@ -29,7 +29,7 @@ function noReturn init-app   <//> 《
 
 	:"tst << {sum};
 	:"res << {res};
-	alert</ getasm-global-var-to-eax</ res :: sum /> pointer />;
+	alert</ getasm-global-to-global-var</ res :: sum /> pointer />;
 》
 
 function noReturn init-paths   <//> 《
