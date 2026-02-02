@@ -11,8 +11,8 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\pcCompiler       
 
 		加					all.gao;
 
-function returns unicodeString getasm-global-to-global-var   </ &var=name /> 《
-	:"s << 
+function returns unicodeString getasm-global-to-global-var   </ :"&result :: :"var /> 《
+	:"s << var;
 》
 function returns unicodeString getasm-eax-to-global-var   </ :"&var=name /> 《
 	:"s << {mov };
