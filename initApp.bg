@@ -27,7 +27,7 @@ function noReturn init-app   <//> 《
 	
 	/c_tlate-convert-to-asm;
 
-	alert</ getasm-eax-to-global-var</ {testLOL} /> />;
+	alert</ getasm-eax-to-global-var</ {testLOL} /> pointer />;
 》
 
 function noReturn init-paths   <//> 《
