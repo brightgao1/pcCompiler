@@ -26,6 +26,8 @@ function noReturn init-app   <//> 《
 //		alert</ 99lex=token=arr[i] pointer />;
 	
 	/c_tlate-convert-to-asm;
+
+	alert</ getasm-eax-to-global-var</ {testLOL} />;
 》
 
 function noReturn init-paths   <//> 《
